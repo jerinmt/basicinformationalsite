@@ -9,10 +9,10 @@ http.createServer(function (req, res) {
         case '/':
             requiredUrl = 'index.html';
             break;
-        case '/about.html':
+        case '/about':
             requiredUrl = 'about.html';
             break;
-        case '/contact.html':
+        case '/contact':
             requiredUrl = 'contact.html';
             break;
         default:
